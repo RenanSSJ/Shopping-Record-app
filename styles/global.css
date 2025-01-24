@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* fonts */
+
+  --ff-inter: "Inter", serif; 
+  --ff-sora: "Sora", serif;
+  
+  --logo: 700 1.6rem/2.5rem var(--ff-sora);
+  --title: 700  1.5rem/2rem var(--ff-inter);
+  --label: 600 1rem/1.25rem var(--ff-inter);
+  --text: 500 1rem/1.25rem var(--ff-inter);
+  --link: 500 0.875rem/1rem var(--ff-inter);
+  /* colors */
+
+  --background-primary: #f4f5fb;
+  --background-secondary: #ffffff;
+
+  --color-brand: #ca3884;
+  --color-brand-hover: #a52c6b;
+  --color-danger: #c93847;
+
+  --content-primary:#080B12;
+  --content-secondary:#374151;
+  --content-tertiary:#9CA3AF;
+  --always-white: white;
+
+  --border-primary: #d1d5db;
+  --border-hover: #b9c2d0;
+}
+
+html {
+ 
+  h1 {
+    font: var(--title);
+    color:var(--content-primary);
+  }
+  
+  .logo {
+    font: var(--logo);
+    color: var(--content-secondary);
+  }
+
+  p {
+    font: var(--text);
+    color: var(--content-secondary);
+  }
+
+  a {
+    font: var(--link);
+    text-decoration: none;
+  }
+
+}
