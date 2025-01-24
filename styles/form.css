@@ -1,0 +1,74 @@
+input {
+  all: unset;
+  font: var(--label);
+  color: var(--content-secondary);
+  height: 2.5rem;
+  padding-left: 0.8rem;
+  border: 1.5px solid var(--border-primary);
+  border-radius: .75rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--background-secondary);
+}
+
+input::-webkit-input-placeholder { /* Chrome, Safari, Edge */
+  color: var(--content-tertiary);
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--content-tertiary);
+}
+input::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--content-tertiary);
+}
+input::placeholder { /* Padrão moderno */
+  color: var(--content-tertiary);
+}
+
+input:focus {
+  border: 1.5px solid var(--border-hover);
+  outline: none;
+}
+
+ input:hover {
+  border: 1.5px solid var(--border-hover);
+}
+
+#add-item {
+  width: 21.5625rem;
+  height: 2.5rem;
+}
+
+#add-price {
+  width: 5rem;
+  height: 2.5rem;
+}
+
+button {
+  background-color: var(--color-brand);
+  color: var(--always-white);
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: .75rem;
+  border: none;
+}
+
+@media (width < 40em) {
+  #add-item {
+    width: 15rem;
+    height: 2.5rem;
+  }
+  
+  #add-price {
+    width: 3rem;
+    height: 2.5rem;
+  }
+ 
+  button {
+    background-color: var(--color-brand);
+    color: var(--always-white);
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .75rem;
+    border: none;
+    margin-top: 0.75rem;
+  }
+}
