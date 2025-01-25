@@ -19,16 +19,16 @@
 
 </head>
 
-<body>
+<body class="container">
   <header>
-    <a href="#">
+    <a href="#" class="flex">
       <img src="./assets/icons/logo.svg" alt="logo">
       <h1 class="logo">Shopping Record</h1>
     </a>
   </header>
 
-  <main>
-    <div class="top">
+  <main class="container">
+    <div class="top flex">
       <a href="#">
         <img src="./assets/icons/back-arrow.svg" alt="">
       </a>
@@ -36,15 +36,26 @@
     </div>
 
     <div class="items-input">
-      <form action="user-input">
-        <input type="text" name="add-item" id="add-item" placeholder="Adicione um novo item">
-        <input type="number" name="add-price" id="add-price" placeholder="valor">
+      <form action="" class="container flex" id="user-form">
+        <input type="text" name="add-item" id="add-item" placeholder="Adicione um novo item" required>
+        <input type="text" name="add-price" id="add-price" placeholder="Valor" required>
         <button type="submit">Adicionar item</button>
       </form>
     </div>
+
+    <div id="list" class="container list">
+      <h1>Lista</h1>
+      <ul id="items-list" class="items-list">
+        <li>
+          <div class="item" id="item">Pao</div>
+          <div class="price" id="price">€ 1.75</div>
+          <img src="./assets/icons/rubish.svg" alt="remover">
+        </li>
+      </ul>
+    </div>
   </main>
 
-
+  <script src="./scripts.js"></script>
 </body>
 
 </html>

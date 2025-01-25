@@ -1,12 +1,10 @@
 body {
   background-color: var(--background-primary);
-  max-width: 40rem;
   margin: auto;
 }
 
 header {
   & a {
-    display: flex;
     justify-content: center;
     gap: 0.43rem;
     margin-top: 1.5625rem;
@@ -21,28 +19,17 @@ main {
   width: 100%;
 
   div.top {
-    display: flex;
     flex-direction: column;
     gap: 1rem;
   }
 
-  div.items-input {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-self: center;
-    margin-top: 3.5rem;
-  }
 }
+
+
 
 @media (width < 40em) {
   body {
     max-width: 100%;
   }
-
-  div.items-input {
-    & form button {
-      display: block;
-    }
-  }
+  
 }
