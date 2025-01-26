@@ -38,18 +38,17 @@
     <div class="items-input">
       <form action="" class="container flex" id="user-form">
         <input type="text" name="add-item" id="add-item" placeholder="Adicione um novo item" required>
+        
         <input type="text" name="add-price" id="add-price" placeholder="Valor" required>
-        <button type="submit">Adicionar item</button>
+
+        <button onlick="addItem()" type="submit">Adicionar item</button>
       </form>
     </div>
 
     <div id="list" class="container list">
       <h1>Lista</h1>
       <ul id="items-list" class="items-list">
-        <li>
-          <div class="item" id="item">Pao</div>
-          <div class="price" id="price">€ 1.75</div>
-          <img src="./assets/icons/rubish.svg" alt="remover">
+        <li id="items-list">
         </li>
       </ul>
     </div>

@@ -8,39 +8,26 @@ li {
   margin-top: 1.5rem;
 }
 
-div#item {
+.item {
   all: unset;
   background-color: var(--background-secondary);
   font: var(--text);
   color: var(--content-secondary);
   padding: 0.6rem 0.8rem;
-  width: 90%;
+  width: 85%;
   height: 1.3rem ;
   border: 1px solid var(--border-primary);
   border-radius: 0.7rem;
 }
 
-div#price {
+.price {
   all: unset;
   background-color: var(--background-secondary);
   font: var(--text);
   color: var(--content-secondary);
   padding: 0.6rem 0.8rem;
-  width: 10%;
+  width: 15%;
   height: 1.3rem;
   border: 1px solid var(--border-primary);
   border-radius: 0.7rem;
-}
-
-@media (width < 40em) {
-  div#item {
-    width: 85%;
-    height: 1.3rem ;
-    
-  }
-  
-  div#price {
-    width: 15%;
-    height: 1.3rem;
-  }
 }
