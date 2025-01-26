@@ -1,9 +1,10 @@
 
 
-<h1 align="center"> Zingen - Landing Page </h1>
+<h1 align="center"> Shopping Record </h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d446bedd-f594-4ea7-b96b-a1e7dbeb4de8](https://github.com/user-attachments/assets/9274bdaf-d5e1-49af-9bc7-96ec1bafb224" width ="100%">
+  <img src="https://github.com/user-attachments/assets/b43b1377-9a9d-4e10-b2eb-5f9c1740cec4
+" width ="100%">
 </p>
 ## 🚀 Tecnologias
 
