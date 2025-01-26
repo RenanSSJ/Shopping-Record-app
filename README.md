@@ -3,7 +3,7 @@
 <h1 align="center"> Shopping Record </h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b43b1377-9a9d-4e10-b2eb-5f9c1740cec4
+  <img src="![Design_sem_nome__2_-removebg-preview](https://github.com/user-attachments/assets/a9c2c531-9c3d-4e69-8e71-60b670f151f9)
 " width ="100%">
 </p>
 ## 🚀 Tecnologias
